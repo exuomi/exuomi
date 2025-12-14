@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exuomi</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .header{
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+
+        }
+        .logo{
+            text-decoration: none;
+            font-size: 40px;
+            font-weight: 100;
+            margin-left: 30px;
+            color:black;
+
+        }
+        .logo:hover{
+           color:blue;
+        }
+        .navbar{
+            width: 100%;
+            display: inline-block;
+            height: 6rem;
+            align-items: center;
+            padding-top: 40px;
+            padding-right: 10%;
+        }
+        .navbar li{
+            list-style: none;
+            display: inline;
+            padding-right: 40px;
+            position: relative;
+            align-items: center;
+
+        }
+        .container {
+            display:flex;
+            height: 6rem;
+            background-color:ghostwhite;  
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+        .navbar li a:hover{
+            color:blue;
+
+        }
+        .sticky{
+            position: fixed;
+            top: o;
+            width: 100%;
+        }
+        .hImg{
+            display: grid;
+            height: 100%;
+        }
+        .center-fit{
+            width: 1688px;
+            margin:auto;
+        }
+        .center-fit3{
+            width:600px;
+            margin-top: 75%;
+            margin-left: 100%;
+
+        }
+
+        .text1{
+            margin: 2% 1px 1px 15px; 
+            font-size: larger;
+        }
+
+        .img1{
+            float:right;
+            cursor:crosshair;
+            position:relative;
+            margin-bottom: 20%;
+
+        }
+        .img2{
+            float:right;
+            cursor:crosshair;
+            position:static;
+
+        }
+        .img3{
+            float:right;
+            position:static;
+
+
+        }
+        .img4{
+            float:inline-end;
+            position:static;
+            margin-right: 150px;
+            margin-top: 20px; 
+        }
+        .img5{
+            float:inline-end;
+            position:static;
+            border: 2px solid #555;
+            margin-right: 150px;
+            margin-top: 20px; 
+        }
+        .img6{
+            float:inline-end;
+            position:static;
+            margin-right: 150px;
+            margin-top: 20px;
+        }
+        .img7{
+            float:inline-end;
+            position:static;
+            border: 2px solid #555;
+            margin-right: 150px;
+            margin-top: 20px;
+        }
+        .img8{
+            margin-left: 75px;
+        }
+        .img9{
+            margin-left: 150px;
+
+        }
+        .img10{
+            margin-left: 150px;
+
+        }
+        .img891{
+            display: inline-block;
+            margin-left: 150px;
+            margin-top: 30px;
+        }
+
+        .reset1{
+            font-family: 'Times New Roman';
+            margin: 0 0 2% 35%;
+            padding: 20px 25px;
+        }
+        .reset2{
+            font-family: 'Times New Roman';
+            margin: 0 5% 5% 0;
+            padding: 20px 25px;
+        }
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container" >
+        <nav class="header" id="header">
+            <a href="../index.html" class="logo">Exuomi</a>
+        
+        
+        </nav>
+        <nav class="navbar" id="navbar">
+            <li><a href="../html/new.html">New In</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Sketch</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </nav>
+    </div>
+
+    <div class="hImg">
+        <img class="center-fit" src='../assets/images/CH_header.png'>
+
+    </div>
+
+    <div class="text1">
+        
+
+                <div class="img1">
+                    <button class="reset1" onclick="resetImg1()" >Reset</button>
+                    <img src="../assets/images/CH_render3.png" style="width:600px;" onclick="enlargeImg1()" id="img1">
+                    <pre>
+                        ^ Click image to enlarge ^
+                    </pre>
+                </div>
+
+                <div class="img3">
+                    <img class="center-fit3" src="../assets/images/CH_render4.png" >
+                </div>
+
+
+        <pre><span class="inner-pre" style="font-size:20px">
+            <p><b>          Date:</b> 2025</p><p><b>          Theme:</b> Public Art</p>
+            <b>Chrono:Hall to see the heart of Ottawa in new dimensions.</b>
+        </span></pre>
+        <pre class="p1">
+
+            <b>ABSTRACT.</b> Appearing with more similarities to a booth despite the name, 
+            Chrono:Hall aims to depict larger spaces from within, through the use of screens
+            and other immersive effects. Located in the heart of Ottawa, those passing by 
+            could enter and select whether to see visions of the past or future, with 
+            additional scenarios according to their decision. The significance of such an 
+            installation is to allow any interested party to learn more about Ottawa's 
+            history, or see speculative visions for the future of the city. Every vision 
+            is linked to the location of the Chrono:Hall that the viewer is visiting, but 
+            allows for different viewpoints as well. This allows for the possibility of 
+            future installations at other areas of interest and historical significance. 
+
+
+
+            The creation of each scenario involves a group that collaborates to produce the 
+            concept, design, 3D imagery, sound, and coding involved to display on the screens.
+            Limited spots would be available for commissioning members that form the groups 
+            to work on a balanced and varied amount of projects. 
+
+
+            
+
+            Inside, the controls should reflect the wide audience variety and be as intuitive
+            as possible for anyone to understand and operate with ease. A haptic knob that 
+            doubles as a button placed in a way that mirrors a car dashboard creates an 
+            environment familiar to most. Furthermore, a small info dashboard beside the knob 
+            avoids clutter on the big screen while still displaying important information. 
+
+
+
+
+            The booth's form appears mechanical and futuristic, appearing as a sort of time 
+            machine. The external material would be coated in acrylic mirrors to reflect the 
+            surroundings due to the location-based projects, and the designs allow for the 
+            thickness needed to support the electronics that allow the project to function. 
+  
+
+
+
+            The result is an installation that brings foot traffic to essential locations in 
+            Ottawa, while educating viewers of significant history as well as picture future 
+            developments, in an easy and entertaining experience for both tourists and locals. 
+        </pre>
+
+
+        <img class="img4" src="../assets/images/CH_render2.png" style="width:650px"><img class="img5" src="../assets/images/CH_sk2.jpg" style="width:600px">
+        <img class="img6" src="../assets/images/CH_render1.png" style="width:650px"><img class="img7" src="../assets/images/CH_sk1.jpg" style="width:600px">
+        <div class="img891">
+            <img class="img8" src="../assets/images/CH_iso1.png" style="width:300px"><img class="img9" src="../assets/images/CH_iso2.png" style="width:370px"><img class="img10" src="../assets/images/CH_iso3.png" style="width:300px">
+        </div>
+        <p>
+
+
+        </p>
+
+        <script>
+            img1 = document.getElementById("img1");
+            function enlargeImg1(){
+                img1.style.width = "1000px";
+                img1.style.height = "auto";
+                img1.style.transition = "transform 0.5s ease";
+                
+            }
+            function resetImg1(){
+                img1.style.width = "600px";
+                img1.style.height = "auto";
+                img1.style.transition = "transform 0.5s ease";
+
+            }
+        </script>
+        <script>
+            img2 = document.getElementById("img2");
+            function enlargeImg2(){
+                img2.style.width = "700px";
+                img2.style.height = "auto";
+                img2.style.transition = "transform 0.5s ease";
+                
+            }
+            function resetImg2(){
+                img2.style.width = "200px";
+                img2.style.height = "auto";
+                img2.style.transition = "transform 0.5s ease"
+            }
+        </script>
+
+        
+    </div>
+    
+
+
+
+
+
+
+
+</body>
+</html>
