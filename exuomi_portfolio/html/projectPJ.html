@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exuomi</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .header{
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+
+        }
+        .logo{
+            text-decoration: none;
+            font-size: 40px;
+            font-weight: 100;
+            margin-left: 30px;
+            color:black;
+
+        }
+        .logo:hover{
+           color:blue;
+        }
+        .navbar{
+            width: 100%;
+            display: inline-block;
+            height: 6rem;
+            align-items: center;
+            padding-top: 40px;
+            padding-right: 10%;
+        }
+        .navbar li{
+            list-style: none;
+            display: inline;
+            padding-right: 40px;
+            position: relative;
+            align-items: center;
+
+        }
+        .container {
+            display:flex;
+            height: 6rem;
+            background-color:ghostwhite;  
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            font-size: 20px;
+
+        }
+        .navbar li a:hover{
+            color:blue;
+
+        }
+        .sticky{
+            position: fixed;
+            top: o;
+            width: 100%;
+        }
+        .hImg{
+            display: grid;
+            height: 100%;
+        }
+        .center-fit{
+            width: 1688px;
+            margin:auto;
+        }
+        .center-fit3{
+            width: 700px;
+            margin: 60% 0 50% 100%;
+            border: 2px solid #555;
+        }
+        .center-fit4{
+            width: 1500px;
+            margin:8% 0 0 5%;
+            border: 2px solid #555;
+        }
+        .text1{
+            margin: 2% 1px 1px 15px; 
+            font-size: larger;
+        }
+        .header1{
+            position: absolute;
+            top: 900px;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            background-color: ghostwhite;
+            padding: 25px 20px ;
+            font-family: "Times New Roman";
+            text-align: center;
+            font-size: 40px;
+
+        }
+        .img1{
+            float:right;
+            cursor:crosshair;
+            position:relative;
+            margin: 0 10% 0 0;
+
+        }
+        .img2{
+            float:right;
+            cursor:crosshair;
+            position:relative;
+            margin: 0 1% 0 0;
+
+        }
+        .img3{
+            float:right;
+            position:static;
+            height:100%;
+
+        }
+        .img4{
+            display:grid;
+            height:100%;
+
+        }
+
+        .reset1{
+            font-family: 'Times New Roman';
+            margin: 0 5% 5% 0;
+            padding: 20px 25px;
+        }
+        .reset2{
+            font-family: 'Times New Roman';
+            margin: 0 5% 5% 0;
+            padding: 20px 25px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container" >
+        <nav class="header" id="header">
+            <a href="../index.html" class="logo">Exuomi</a>
+        
+        
+        </nav>
+        <nav class="navbar" id="navbar">
+            <li><a href="../html/new.html">New In</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Sketch</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </nav>
+    </div>
+
+    <div class="hImg">
+        <img class="center-fit" src='../assets/images/sprenderV1.png'>
+        <div class="header1">
+        <h2>Project Jøkulkyrkja</h2>
+        </div>
+    </div>
+
+    <div class="text1">
+        
+
+                <div class="img1">
+                    <button class="reset1" onclick="resetImg1()" >Reset</button>
+                    <img src="../assets/images/PJ_p2V1.jpg" style="width:200px;" onclick="enlargeImg1()" id="img1">
+                        
+                </div>
+                <div class="img2">
+                    <button class="reset2" onclick="resetImg2()" >Reset</button>
+                    <img src="../assets/images/PJ_p1.jpg" style="width:200px; " onclick="enlargeImg2()" id="img2">
+
+                </div>
+                <div class="img3">
+                    <img class="center-fit3" src="../assets/images/features_PJ.png" >
+                </div>
+
+
+        <pre><span class="inner-pre" style="font-size:20px">
+            <p><b>          Date:</b> 2025</p><p><b>          Theme:</b> Speculative Design</p>
+            <b>Project Jøkulkyrkja to Preserve Population.</b>
+        </span></pre>
+        <pre class="p1">
+
+            <b>ABSTRACT.</b> With the collapse of the Atlantic Meridional Overturning Circulation, 
+            warm current that regulates temperature also collapses. Coupled with a new grand solar 
+            minimum, the temperature drops drastically and gets colder each year. Sea level rises 
+            and extreme snow piling covers much of the existing infrastructure. Outdoor conditions 
+            have become unstable and unsafe for those without specific PPE. 
+
+
+
+            Project Jøkulkyrkja proposes self-sustaining stations, that house 20-35 people, spread
+            relatively even thorughout the city above snow. 
+
+
+
+            Shepherds would be in charge of the station and keeping occupants safe, along with AI 
+            supercomputer Prime Messenger that forecasts the upcoming weather conditions along with
+            IoT and operational resources. 
+
+
+
+
+
+
+            This speculative project proposes a widespread government response to a severe natural 
+            disaster, and explores gradual procedures that develop into the bunker presented. The 
+            features aim to address the anticipated problems that arise with extreme weather 
+            conditions, including ensuring quality of life for occpuants. 
+
+
+            The bunker's form builds on top of the existing shape of buildings present in the 
+            courtyard, prioritising functionality over stylistic choices, taking inspiration 
+            from RAE's Antarctic Vostok Station. Any components that protrude out generally
+            slope at an angle to avoid excessive snowfall accumulation.  
+        </pre>
+        <div class="img4">
+            <img class="center-fit4" src="../assets/images/rh_PJ.png" >
+        </div>
+        <pre>
+            
+        </pre>
+
+        <script>
+            img1 = document.getElementById("img1");
+            function enlargeImg1(){
+                img1.style.width = "700px";
+                img1.style.height = "auto";
+                img1.style.transition = "transform 0.5s ease";
+                
+            }
+            function resetImg1(){
+                img1.style.width = "200px";
+                img1.style.height = "auto";
+                img1.style.transition = "transform 0.5s ease";
+
+            }
+        </script>
+        <script>
+            img2 = document.getElementById("img2");
+            function enlargeImg2(){
+                img2.style.width = "700px";
+                img2.style.height = "auto";
+                img2.style.transition = "transform 0.5s ease";
+                
+            }
+            function resetImg2(){
+                img2.style.width = "200px";
+                img2.style.height = "auto";
+                img2.style.transition = "transform 0.5s ease"
+            }
+        </script>
+
+        
+    </div>
+    
+
+
+
+
+
+
+
+</body>
+</html>
